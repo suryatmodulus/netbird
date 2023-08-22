@@ -124,6 +124,7 @@ func (p *Peer) Copy() *Peer {
 		DNSLabel:               p.DNSLabel,
 		LoginExpirationEnabled: p.LoginExpirationEnabled,
 		LastLogin:              p.LastLogin,
+		Ephemeral:              p.Ephemeral,
 	}
 }
 
